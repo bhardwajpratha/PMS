@@ -1,0 +1,57 @@
+body {
+    font-family: sans-serif;
+}
+.backgrond{
+    background: #bcb9b9b3 url('https://st.depositphotos.com/1028911/1392/i/450/depositphotos_13923865-stock-photo-prison-interior.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    display: flex;
+    height: 740px;
+    width: 100%;
+}
+.container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    height: 200px;
+}
+h1 {
+    text-align: center;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#error-message {
+    color: red;
+    font-style: italic;
+}
+.text-footer{
+    /* height: 18px; */
+    margin-top: 0px;
+    text-align: center;
+    padding: 20px 0px;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cfcccc;
+}
